@@ -1,0 +1,53 @@
+{
+  "name": "moonshine/ru",
+  "description": "Russian localization for MoonShine",
+  "keywords": ["laravel", "ru", "localization" ,"admin", "dashboard", "moonshine"],
+  "type": "library",
+  "homepage": "https://moonshine-laravel.com",
+  "license": "MIT",
+  "support": {
+    "issues": "https://github.com/moonshine-software/ru/issues",
+    "source": "https://github.com/moonshine-software/ru"
+  },
+  "authors": [
+    {
+      "name": "Danil Shutsky",
+      "email": "info@cutcode.ru",
+      "homepage": "https://cutcode.dev"
+    }
+  ],
+  "require": {
+    "php": "^8.2|^8.3"
+  },
+  "require-dev": {
+  },
+  "autoload": {
+    "psr-4": {
+      "MoonShine\\Ru\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+
+    }
+  },
+  "conflict": {
+    "laravel/framework": "<10.48.0",
+    "moonshine/moonshine": "<3.0"
+  },
+  "scripts": {
+
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+          "MoonShine\\Ru\\Providers\\RuServiceProvider"
+      ]
+    }
+  },
+  "config": {
+    "allow-plugins": {
+
+    }
+  }
+}
